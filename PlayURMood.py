@@ -9,8 +9,8 @@ import time
 import platform
 
 # Spotify Credentials
-SPOTIFY_CLIENT_ID = 'd4a0d7c4cc4d49bea0cf444d94f88fec'
-SPOTIFY_CLIENT_SECRET = '36c09f044bc04f588263d7bccca144f1'
+SPOTIFY_CLIENT_ID = 'SPOTIFY_CLIENT_ID'
+SPOTIFY_CLIENT_SECRET = 'SPOTIFY_CLIENT_SECRET'
 SPOTIFY_REDIRECT_URI = 'http://127.0.0.1:8080/callback'
 SCOPE = 'playlist-modify-public playlist-modify-private user-read-playback-state user-modify-playback-state'
 CACHE_PATH = 'spotify_token.cache'
